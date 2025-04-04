@@ -1,5 +1,6 @@
-from ebm.ebm import rank_docs
-from ai_training.generate_dataset import generate_dataset
+from ai_training.lightgbm_train import train
 
 if __name__ == "__main__":
-    generate_dataset()
+    # # ---------- NDCG Score ----------
+    # NDCG@5: 0.8513661466555181
+    train()
