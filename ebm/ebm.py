@@ -48,7 +48,7 @@ def sim_not(w):
 # ---------- Step#3: Calculate relevance of each docs ----------
 
 
-def evaluate_query_tree(query, weights):
+def evaluate_query(query, weights):
     query_tree = convert_query(query)
     return _evaluate_query_tree(query_tree, weights)
 
@@ -81,7 +81,7 @@ def rank_docs(query, documents):
 
     ranked_docs = sorted(
         [
-            (i + 1, evaluate_query_tree(query, weights))
+            (i + 1, evaluate_query(query, weights))
             for i, weights in enumerate(doc_weights)
         ],
         key=lambda x: x[1],
