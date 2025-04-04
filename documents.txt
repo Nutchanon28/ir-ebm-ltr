@@ -1,0 +1,10 @@
+D1: {bird,cat,bird,cat,dog,dog,bird}
+D2: {cat,tiger,cat,dog}
+D3: {dog,bird,bird}
+D4: {cat,tiger}
+D5: {tiger,tiger,dog,tiger,cat}
+D6: {bird,cat,bird,cat,tiger,tiger,bird}
+D7: {bird,tiger,cat,dog}
+D8: {dog,cat,bird}
+D9: {cat,dog,tiger}
+D10: {tiger,tiger,tiger}
